@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+set -e
+
+echo "Cloning IJava repo..."
+git clone https://github.com/frankfliu/IJava ijava
+cd ijava
+echo "Installing..."
+./gradlew installKernel
+rm -rf ijava
+echo "Done. Run 'jupyter notebook'"

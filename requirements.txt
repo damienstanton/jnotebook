@@ -1,0 +1,13 @@
+jupyter
+jupyterlab
+ipython
+numpy
+requests
+pandas
+matplotlib
+dash
+scipy
+scikit-learn
+torch
+torchvision
+opencv-python
